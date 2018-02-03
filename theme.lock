@@ -2,7 +2,7 @@
 assets/shop.js.liquid:
   development: 2018-02-02T16:28:15-05:00
 assets/style.css.liquid:
-  development: 2018-02-03T17:29:26-05:00   418b86f297f76d03a78e83147b966c45
+  development: 2018-02-03T18:07:11-05:00   6a698be6228c2a5a8df13729077332a2
 config/settings_data.json:
   development: 2018-02-02T16:28:15-05:00   99914b932bd37a50b983c5e7c90ae93b
 config/settings_schema.json:
@@ -24,9 +24,9 @@ templates/blog.liquid:
 templates/cart.liquid:
   development: 2018-02-02T16:28:15-05:00   979ea5c9aba2d3cf542754947eefbacd
 templates/collection.liquid:
-  development: 2018-02-03T17:29:12-05:00   0aea7fae4347f4f01dfc7297d5bafaa2
+  development: 2018-02-03T17:52:12-05:00   7b9f016f03712e4a84f3157dc89e9c37
 templates/index.liquid:
-  development: 2018-02-03T15:32:37-05:00   d832f160029dfd7113f0e94968ef591e
+  development: 2018-02-03T18:06:50-05:00   39e394f7a1e5112a03982a727c35dbb4
 templates/list-collections.liquid:
   development: 2018-02-03T13:40:55-05:00   97f623fe6b855ce7f4f8b1fd3f6337d0
 templates/page.liquid:

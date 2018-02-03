@@ -42,14 +42,24 @@ li {
   display: inline;
   float: right;
   padding: 10px;
-/*   font-size: 25px; */
 }
 
-/* .collection {
-  width: 70%;
-} */
+.collection {
+}
 
 .footer {
   color: #787878;
   text-align: center;
+}
+
+@media only screen and (max-device-width : 500px) {
+  img {
+    width: 90%;
+  }
+  .navbar h1 {
+    display: block;
+  }
+  li {
+    font-size: 12px;
+  }
 }
