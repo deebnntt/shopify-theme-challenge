@@ -1,0 +1,16 @@
+<div class="cart-count">
+  <a href="/cart">({{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }})</a> 
+  <a href="/cart">Check Out</a>
+</div>
+{% schema %}
+  {
+    "name": "cart",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
