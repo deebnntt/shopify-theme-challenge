@@ -10,7 +10,7 @@ config/settings_schema.json:
 layout/theme.liquid:
   development: 2018-02-03T16:06:36-05:00   a3be7812d5709b91e306d591a1d6b93e
 sections/cart.liquid:
-  development: 2018-02-03T16:05:34-05:00   b723d11802f19c3cbdae4a5add6d5ac3
+  development: 2018-02-03T18:11:10-05:00   bd4b2b67c7a88df02e1ba1cc13b4b72a
 sections/footer.liquid:
   development: 2018-02-03T15:37:32-05:00   644d4c505fb939c28a54ddbd857fabc7
 sections/navbar.liquid:
@@ -34,6 +34,6 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-02-03T13:41:22-05:00
 templates/product.liquid:
-  development: 2018-02-03T14:29:47-05:00   c026d5143cd6a4eb53d37e1828693200
+  development: 2018-02-03T18:11:13-05:00   e061c136fc97bde01beedd5d14acb4c1
 templates/search.liquid:
   development: 2018-02-03T13:42:32-05:00   68b329da9893e34099c7d8ad5cb9c940
