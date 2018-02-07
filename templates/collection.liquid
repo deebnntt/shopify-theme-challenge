@@ -2,16 +2,16 @@
   <h1>{{ collection.title }}</h1>
 
   {% if collection.image %}
-      <img src="{{ collection.image | img_url: 'grande' }}" class="collection" alt="{{ collection.title | escape }}" />
+      <img src="{{ collection.image | img_url: 'grande' }}" class="collection" />
   {% endif %}
 
   <div class="grid-wrapper">
   {% if collection.all_products_count > 0 %}
   {% for product in collection.products %}
     <div class="grid-number">
-      <h2><a href="{{ product.url }}">{{ product.title }}</a></h2>
-      <img src="{{ product.featured_image | product_img_url: 'large' }}" alt="{{ product.title | escape }}" />
+      <a href="{{ product.url }}"><img src="{{ product.featured_image | product_img_url: 'large' }}"/></a>
       <br/>
+      <h3><a href="{{ product.url }}">{{ product.title }}</a></h3>
       {{ product.price | money_with_currency }}
       </div>
       {% endfor %}

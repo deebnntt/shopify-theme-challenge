@@ -1,14 +1,15 @@
 <div>
   <h2>{{ product.title }}</h2>
   <p>{{ product.description }}</p>
-      {% for image in product.images %}
-          <img src="{{ image.src | product_img_url: 'large' }}">
-      {% endfor %}
+  {% for image in product.images %}
+      <img src="{{ image.src | product_img_url: 'large' }}">
+  {% endfor %}
+
   <form action="/cart/add" method="post" enctype="multipart/form-data">
       <select name="id">
           {% for variant in product.variants %}
           {% if variant.available == true %}
-          <option value="{{variant.id}}"> {{ product.title }} {{ variant.price | money_with_currency }}</option>
+          <option value="{{variant.id}}"> {{ product.title }} {{ variant.price | money }}</option>
           {% else %}
           <option disabled="disabled"> {{ variant.title }} sold out :( </option>
           {% endif %}
@@ -16,4 +17,5 @@
       </select>
       <input type="submit" name="add" id="add" value="Add to Cart" class="button">
   </form>
+
 </div>

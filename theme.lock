@@ -2,7 +2,7 @@
 assets/shop.js.liquid:
   development: 2018-02-02T16:28:15-05:00
 assets/style.css.liquid:
-  development: 2018-02-03T18:23:46-05:00   7251e1a7e2a4c626ff5a33d28a99120f
+  development: 2018-02-04T09:28:44-05:00   e3744d30790f648597f5af9eaf954161
 config/settings_data.json:
   development: 2018-02-02T16:28:15-05:00   99914b932bd37a50b983c5e7c90ae93b
 config/settings_schema.json:
@@ -18,22 +18,22 @@ sections/navbar.liquid:
 templates/404.liquid:
   development: 2018-02-03T13:20:38-05:00   d32827a03c0b657eb6334ed9b44403f4
 templates/article.liquid:
-  development: 2018-02-03T13:39:01-05:00   a6fa7ce04409711ee95b6d2c9c171760
+  development: 2018-02-07T10:48:10-05:00   50fe99efd18613ced615c8dc4f73c12a
 templates/blog.liquid:
-  development: 2018-02-03T13:39:31-05:00   e41131daf02395bf0dac8d4eac7f2c84
+  development: 2018-02-07T10:48:11-05:00   9d942e910c1371edc9ba2a6353206e77
 templates/cart.liquid:
-  development: 2018-02-03T18:49:46-05:00   92b94e8fcf290a2a408ce89959d904ec
+  development: 2018-02-07T11:02:31-05:00   33c16d63379410d0e9cadc50a07d6901
 templates/collection.liquid:
-  development: 2018-02-03T18:40:02-05:00   06886cd0db9f4809b437c7ff4acfc2cf
+  development: 2018-02-04T08:53:02-05:00   ff6eab941b697619091d86e31a67f94b
 templates/index.liquid:
-  development: 2018-02-03T18:06:50-05:00   39e394f7a1e5112a03982a727c35dbb4
+  development: 2018-02-04T08:50:47-05:00   e40c76f12003e7c1487bd1a795dd3a1a
 templates/list-collections.liquid:
-  development: 2018-02-03T13:40:55-05:00   97f623fe6b855ce7f4f8b1fd3f6337d0
+  development: 2018-02-04T08:53:29-05:00   f1ee437ed96d9554c91a6af80c564538
 templates/page.liquid:
-  development: 2018-02-03T15:52:25-05:00   e4e649dc6302a3e23ee8c88e4a8e4314
+  development: 2018-02-07T10:41:03-05:00   c1f42e0900fef5c5dcf5a59295653b2f
 templates/password.liquid:
   development: 2018-02-03T13:41:22-05:00
 templates/product.liquid:
-  development: 2018-02-03T18:40:27-05:00   802dfe9ba061157075208690516402e6
+  development: 2018-02-07T10:38:29-05:00   bf9304ceec10c3e5f4a87254e9a366c1
 templates/search.liquid:
   development: 2018-02-03T13:42:32-05:00   68b329da9893e34099c7d8ad5cb9c940
